@@ -16,12 +16,12 @@ export const TopNavBar = () => {
     setMenuOpen(!isMenuOpen);
   };
 
-  const handleOutsideClick = (event) => {
+  const handleOutsideClick = (event: MouseEvent) => {
     if (isMenuOpen && !event.target.closest(".mobile-dropdown")) {
       setMenuOpen(false);
     }
   };
-
+  
   const handleScroll = () => {
     if (isMenuOpen) {
       setMenuOpen(false);
