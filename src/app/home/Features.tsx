@@ -8,32 +8,32 @@ import { Link } from "components/documentation";
 const FEATURES = [
   {
     src: featureFreeSrc,
-    title: "Free Forever",
-    text: "OpenResume is created with the belief that everyone should have free and easy access to a modern professional resume design",
+    title: "GRATIS!!!",
+    text: "ResumeHQ dibuat karena kami berkeyakinan bahwa setiap calon kandidat berhak memiliki akses gratis dan tentunya mempermudah mereka membuat desain resume profesional yang modern.",
   },
   {
     src: featureUSSrc,
-    title: "U.S. Best Practices",
-    text: "OpenResume has built-in best practices for the U.S. job market and works well with top ATS platforms such as Greenhouse and Lever",
+    title: "Go International",
+    text: "ResumeHQ telah dilengkapi dengan fitur terbaik yang sesuai dengan standar kerja Internasional, seperti Amerika dan Eropa, sehingga lebih mudah terintegrasi dengan platform ATS terkemuka seperti Greenhouse dan Lever.",
   },
   {
     src: featurePrivacySrc,
-    title: "Privacy Focus",
-    text: "OpenResume stores data locally in your browser so only you have access to your data and with complete control",
+    title: "Privasi Terjamin",
+    text: "ResumeHQ menyimpan data di perangkat kamu sehingga memudahkan kamu untuk mengakses kembali guna keperluan pribadimu.",
   },
-  // {
-  //   src: featureOpenSourceSrc,
-  //   title: "Open-Source",
-  //   text: (
-  //     <>
-  //       OpenResume is an open-source project, and its source code can be viewed
-  //       by anyone on its{" "}
-  //       <Link href="https://github.com/xitanggg/open-resume">
-  //         GitHub repository
-  //       </Link>
-  //     </>
-  //   ),
-  // },
+  {
+    src: featureOpenSourceSrc,
+    title: "User-Friendly",
+    text: (
+      <>
+        ResumeHQ dibuat untuk memudahkan kamu membuat dan mengedit resume secara online, baik via mobile maupun desktop.
+        {/* {" "}
+        <Link href="https://github.com/xitanggg/open-resume">
+          GitHub repository
+        </Link> */}
+      </>
+    ),
+  },
 ];
 
 export const Features = () => {
