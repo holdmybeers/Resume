@@ -91,7 +91,7 @@ export const ResumeDropzone = ({
     }
 
     saveStateToLocalStorage({ resume, settings });
-    router.push("/resume-maker");
+    router.push("/resume-builder");
   };
 
   return (
