@@ -16,12 +16,21 @@ export const TopNavBar = () => {
     setMenuOpen(!isMenuOpen);
   };
 
+  // const handleOutsideClick = (event: MouseEvent) => {
+  //   if (isMenuOpen && !event.target.closest(".mobile-dropdown")) {
+  //     setMenuOpen(false);
+  //   }
+  // };
+  
   const handleOutsideClick = (event: MouseEvent) => {
-    if (isMenuOpen && !event.target.closest(".mobile-dropdown")) {
+    const target = event.target as HTMLElement;
+    if (isMenuOpen && !target.closest(".mobile-dropdown")) {
       setMenuOpen(false);
     }
   };
   
+
+
   const handleScroll = () => {
     if (isMenuOpen) {
       setMenuOpen(false);
