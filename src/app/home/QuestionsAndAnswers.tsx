@@ -3,119 +3,133 @@ import { Link } from "components/documentation";
 const QAS = [
   {
     question:
-      "Q1. What is a resume builder? Why resume builder is better than resume template doc?",
+      "Q1. Kenapa harus menggunakan resume builder? Kenapa resume builder lebih baik dibanding resume manual/doc?",
     answer: (
       <>
         <p>
-          There are two ways to create a resume today. One option is to use a
-          resume template, such as an office/google doc, and customize it
-          according to your needs. The other option is to use a resume builder,
-          an online tool that allows you to input your information and
-          automatically generates a resume for you.
+          Ada dua cara untuk membuat resume saat ini. 
+          Salah satunya adalah menggunakan template resume, seperti dokumen di word ataupun Google Docs, 
+          dan menyesuaikannya sesuai kebutuhan Anda. <br />
+          Pilihan lainnya adalah menggunakan pembuat resume, 
+          sebuah tools online yang memungkinkan kamu memasukkan informasi secara 
+          otomatis tanpa memungsingkan tampilan dan format tulisan.
         </p>
         <p>
-          Using a resume template requires manual formatting work, like copying
-          and pasting text sections and adjusting spacing, which can be
-          time-consuming and error-prone. It is easy to run into formatting
-          issues, such as using different bullet points or font styles after
-          copying and pasting. On the other hand, a resume builder like
-          OpenResume saves time and prevents formatting mistakes by
-          automatically formatting the resume. It also offers the convenience of
-          easily changing font types or sizes with a simple click. In summary, a
-          resume builder is easier to use compared to a resume template.
+          Menggunakan template resume memerlukan pekerjaan pengaturan manual, 
+          seperti menyalin dan menempel bagian teks serta mengatur jarak dan ukuran font, yang pasti 
+          memakan waktu dan tentunya rentan terhadap kesalahan. 
+         <br /> 
+         Di sisi lain, aplikasi online seperti 
+         {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-600'>ResumeHQ</span> {''}
+          bisa menghemat waktumu dan pastinya mencegah kesalahan format secara otomatis.
+          <br /> Aplikasi ini juga menawarkan kemudahan untuk mengubah jenis ataupun ukuran font 
+          cukup dengan sekali klik.
         </p>
       </>
     ),
   },
   {
     question:
-      "Q2. What uniquely sets OpenResume apart from other resume builders and templates?",
+      "Q2. Apa yang membuat ResumeHQ lebih Unique dibanding tools lainnya?",
     answer: (
       <>
         <p>
-          Other than OpenResume, there are some great free resume builders out
-          there, e.g. <Link href="https://rxresu.me/">Reactive Resume</Link>,{" "}
-          <Link href="https://flowcv.com/">FlowCV</Link>. However, OpenResume
-          stands out with 2 distinctive features:
+        Selain
+        {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-600'>ResumeHQ</span>, {''}
+        ada beberapa pembuat resume GRATIS yang bagus di luar sana. 
+        <br />Namun, 
+        {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-blue-600'>ResumeHQ</span> {''}
+         unggul dengan 2 fitur khas:
         </p>{" "}
         <p>
           <span className="font-semibold">
-            1. OpenResume is designed specifically for the U.S. job market and
-            best practices.
+            1. {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-violet-600'>ResumeHQ</span>{' '}
+            dirancang khusus untuk pasar kerja baik itu di kancah lokal maupun Internasional seperti halnya Amerika dan Eropa.
           </span>
           <br />
-          Unlike other resume builders that target a global audience and offer
-          many customization options, OpenResume intentionally only offers
-          options that are aligned with U.S. best practices. For example, it
-          excludes the option to add a profile picture to avoid bias and
-          discrimination. It offers only the core sections, e.g. profile, work
-          experience, education, and skills, while omitting unnecessary sections
-          like references. Additionally, OpenResume only offers a top down
-          single column resume design as opposed to two column design, because
-          single column design works best for AST. <br />{" "}
+          Berbeda dengan pembuat resume lain yang menargetkan audiens global dan menawarkan banyak opsi yang terkadang membuat kandiat kebingungan, 
+          {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-blue-600'>ResumeHQ</span>{' '}
+           sengaja hanya menyediakan opsi STANDARD yang sesuai dengan praktik terbaik di kancah Internasional. <br />
+           Misalnya, 
+           {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-blue-600'>ResumeHQ</span> {''}
+            tidak menyertakan opsi untuk menambahkan foto profil guna menghindari bias dan diskriminasi <i>(setidaknya hingga saat ini)</i>. <br /> 
+           Kami hanya menawarkan bagian inti, seperti profil, pengalaman kerja, 
+           pendidikan, dan keterampilan, sambil menghilangkan bagian-bagian yang tidak perlu, 
+           seperti referensi. <br />
+           Selain itu, {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-600'>ResumeHQ</span> {''}
+            hanya menawarkan desain resume kolom tunggal dari atas ke bawah, tidak seperti desain dua kolom, karena desain kolom tunggal lebih cocok untuk sistem ATS (Application Tracking System). 
+          <br />{" "}
         </p>
         <p>
           <span className="font-semibold">
-            2. OpenResume is super privacy focus.
+            2. {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-green-300'>ResumeHQ</span> {''}
+             sangat berfokus pada privasi.
           </span>{" "}
           <br />
-          While other resume builders may require email sign up and store user
-          data in their databases, OpenResume believes that resume data should
-          remain private and accessible only on user’s local machine. Therefore,
-          OpenResume doesn’t require sign up to use the app, and all inputted
-          data is stored in user’s browser that only user has access to.
+          Sementara pembuat resume lain mungkin memerlukan pendaftaran melalui 
+          email dan menyimpan data pengguna di database mereka, {' '} <span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500'>ResumeHQ</span> {' '} 
+          percaya bahwa data resume harus tetap bersifat pribadi dan hanya dapat diakses 
+          oleh pengguna di perangkat lokal mereka. <br /> Oleh karena itu, 
+          {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-600'>ResumeHQ</span> {''}
+          tidak memerlukan pendaftaran untuk menggunakan aplikasi, 
+          dan semua data yang dimasukkan disimpan di peramban pengguna yang hanya 
+          bisa diakses oleh pengguna itu sendiri.
         </p>
       </>
     ),
   },
   {
-    question: "Q3. Who created OpenResume and why?",
+    question: "Q3. Siapa dibalik ResumeHQ?",
     answer: (
       <p>
-        OpenResume was created by{" "}
-        <Link href="https://github.com/xitanggg">Xitang Zhao</Link> and designed
-        by <Link href="https://www.linkedin.com/in/imzhi">Zhigang Wen</Link> as
-        a weekend project. As immigrants to the US, we had made many mistakes
-        when creating our first resumes and applying for internships and jobs.
-        It took us a long while to learn some of the best practices. While
-        mentoring first generation students and reviewing their resumes, we
-        noticed students were making the same mistakes that we had made before.
-        This led us to think about how we can be of help with the knowledge and
-        skills we have gained. We started chatting and working over the weekends
-        that led to OpenResume, where we integrated best practices and our
-        knowledge into this resume builder. Our hope is that OpenResume can help
-        anyone to easily create a modern professional resume that follows best
-        practices and enable anyone to apply for jobs with confidence.
+        {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-pink-600'>ResumeHQ</span> {''}
+         dikembangkan oleh {" "}
+         <Link href="https://www.lokerhq.com">
+          {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-600'>Loker Headquarters</span>, {''}
+          </Link>{" "}
+        sebagai sarana yang diharapkan dapat membantu para pencari kerja membuat resume yang lebih profesional. 
+        Kami memerlukan waktu lama untuk belajar beberapa praktik terbaik. <br />
+        Ketika menjadi mentor bagi mahasiswa generasi pertama dan meninjau resume mereka, 
+        kami menyadari bahwa para mahasiswa membuat kesalahan yang sama seperti yang kami lakukan sebelumnya. <br />
       </p>
     ),
   },
   {
-    question: "Q4. How can I support OpenResume?",
+    question: "Q4. Bagaimana cara mensupport kami?",
     answer: (
       <>
         <p>
-          The best way to support OpenResume is to share your thoughts and
-          feedback with us to help further improve it. You can send us an email
-          at{" "}
-          <Link href="mailto:hello@open-resume.com">hello@open-resume.com</Link>{" "}
-          or{" "}
-          <Link href="https://github.com/xitanggg/open-resume/issues/new">
-            open an issue
+        Cara terbaik untuk mendukung 
+        {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-pink-600'>ResumeHQ</span> {''}
+         adalah dengan berbagi pemikiran 
+        dan masukan Anda untuk membantu kami meningkatkannya lebih lanjut. 
+        Baik Anda menyukainya atau tidak, kami senang mendengar dari Anda.
+        {" "}
+          <Link href="mailto:team@lokerhq.com">team@lokerhq.com</Link>{" "}
+          atau follow sosial media kami di: 
+          {" "}
+          <Link href="https://linkedin.com/company/lokerhq">
+          {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-pink-600'>LinkedIn</span>, {''}
           </Link>{" "}
-          at our Github repository. Whether you like it or not, we would love to
-          hear from you.
+          <Link href="https://twitter.com/lokerhq">
+          {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-600'>Twitter</span>, {''}
+          </Link>{" "}
+          <Link href="https://facebook.com/lokerhq">
+          {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-600'>Facebook</span>, {''}
+          </Link>{" "}
+          atau{" "}
+          <Link href="https://instagram.com/lokerhq">
+          {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-600'>Instagram</span>. {''}
+          </Link>
         </p>
         <p>
-          Another great way to support OpenResume is by spreading the words.
-          Share it with your friends, on social media platforms, or with your
-          school’s career center. Our goal is to reach more people who struggle
-          with creating their resume, and your word-of-mouth support would be
-          greatly appreciated. If you use Github, you can also show your support
-          by{" "}
-          <Link href="https://github.com/xitanggg/open-resume">
-            giving the project a star
-          </Link>{" "}
-          to help increase its popularity and reach.
+        Cara lain yang luar biasa untuk mendukung 
+        {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-600'>ResumeHQ</span> {''}
+         adalah dengan membagikannya kepada orang terdekat kamu. 
+        Seperit teman, sosmed, ataupun kampus. 
+        <br />Tujuan kami adalah menjangkau lebih 
+        banyak orang yang dan membantu mereka yang mengalami kesulitan dalam membuat resume, 
+        dan dukungan dari mulut ke mulut akan sangat membantu kami untuk terus mengembangkan platform ini. 
         </p>
       </>
     ),

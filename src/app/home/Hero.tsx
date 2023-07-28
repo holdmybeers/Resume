@@ -21,8 +21,8 @@ export const Hero = () => {
         <Link href="/resume-screener" className="btn-secondary lg:ml-5 mt-6 lg:mt-14">
           Screening Resume <span aria-hidden="true">→</span>
         </Link>
-        <p className="ml-6 mt-3 text-sm text-gray-600">No sign up required</p>
-        <p className="mt-3 text-lg text-sky-700 lg:mt-36">
+        {/* <p className="ml-6 mt-3 text-sm text-gray-600 text-center">No sign up required</p> */}
+        <p className="mt-1 text-lg text-sky-700 lg:mt-36">
           Sudah punya resume?
           <br /> 
           Screening resume kamu dengan tools{" "}
