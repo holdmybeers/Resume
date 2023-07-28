@@ -29,7 +29,7 @@ const RESUME_EXAMPLES = [
     description: (
       <span>
         Created with OpenResume resume builder -{" "}
-        <Link href="/resume-builder">Link</Link>
+        <Link href="/resume-maker">Link</Link>
       </span>
     ),
   },
