@@ -90,7 +90,7 @@ export const TopNavBar = () => {
           {[
             ["/resume-builder", "Buat Resume"],
             ["/resume-screener", "Screening Resume"],
-            ["https://www.lokerhq.com/jobs/", "Cari Loker"], 
+            ["https://www.lokerhq.com/jobs/", "Loker"], 
           ].map(([href, text]) => (
             <Link key={text} className="rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4" href={href}>
               {text}
@@ -111,7 +111,7 @@ export const TopNavBar = () => {
         {[
           ["/resume-builder", "Buat Resume"],
           ["/resume-screener", "Screening Resume"],
-          ["https://www.lokerhq.com/jobs/", "Cari Loker"], 
+          ["https://www.lokerhq.com/jobs/", "Loker"], 
         ].map(([href, text]) => (
           <Link
             key={text}
