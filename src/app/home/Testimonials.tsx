@@ -11,14 +11,14 @@ const TESTIMONIALS = [
   {
     src: testimonialSpiegelSrc,
     quote:
-      "Banyak mahasiswa sering membuat kesalahan kecil pada resume mereka, seperti menggunakan poin-poin bullet atau ukuran font yang tidak konsisten. Tetapi jangan khawatir, fitur otomatis format dari ResumeHQ dapat membantu memastikan format yang konsisten dan rapi. Dengan fitur ini, resume Anda akan terlihat lebih profesional dan menarik!",
+      "Banyak mahasiswa sering membuat kesalahan kecil pada resume mereka, seperti menggunakan poin bullet atau ukuran font tidak konsisten. Tetapi fitur format otomatis ResumeHQ membantu memastikan format yang konsisten dan rapi!",
     name: "Donna",
     title: "Dosen",
   },
   {
     src: testimonialSantiSrc,
     quote:
-      "Selama mencari pekerjaan terakhir, saya menggunakan ResumeHQ dan berkat desain resume yang keren namun profesional, saya diundang untuk wawancara di perusahaan teknologi ternama seperti Gojek, Shopee dan Traveloka. ResumeHQ memang membantu saya menampilkan diri dengan gaya yang menarik!",
+      "Selama mencari pekerjaan terakhir, ResumeHQ membantu saya mendesain resume yang keren namun tetap profesional, saya diundang untuk wawancara di perusahaan teknologi ternama seperti Gojek, Shopee dan Traveloka!",
     name: "Rinto",
     title: "Software Engineer",
   },
@@ -65,7 +65,7 @@ export const Testimonials = ({ children }: { children?: React.ReactNode }) => {
   return (
     <section className="mx-auto -mt-2 px-8 pb-24">
       <h2 className="mb-8 text-center text-3xl font-bold">
-        Semua{" "}
+        People {" "}
         <Image src={heartSrc} alt="love" className="-mt-1 inline-block w-7" />{" "}
         ResumeHQ
       </h2>

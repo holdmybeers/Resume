@@ -1,6 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import { FlexboxSpacer } from "components/FlexboxSpacer";
 import { AutoTypingResume } from "home/AutoTypingResume";
+import arrowRight from "public/assets/round-arrow-right.svg";
 
 export const Hero = () => {
   return (
@@ -19,9 +21,11 @@ export const Hero = () => {
           Mulai bikin resume <span aria-hidden="true">→</span>
         </Link>
         <Link href="/resume-screener" className="btn-secondary lg:ml-5 mt-6 lg:mt-14">
-          Screening Resume <span aria-hidden="true">→</span>
+          Screening Resume <span aria-hidden="true">
+          <Image src={arrowRight} alt="love" className="-mt-1 text-primary inline-block w-7" />
+          </span>
         </Link>
-        {/* <p className="ml-6 mt-3 text-sm text-gray-600 text-center">No sign up required</p> */}
+        <p className="ml-6 mt-3 text-sm text-gray-600">No sign up required</p>
         <div className="mt-1 shadow-2xl bg-primary px-3 py-3 rounded-lg lg:mt-36">
           Punya resume tapi belum yakin? Jangan khawatir!
           <br /> 
