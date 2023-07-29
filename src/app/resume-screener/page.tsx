@@ -25,10 +25,10 @@ const RESUME_EXAMPLES = [
     ),
   },
   {
-    fileUrl: "resume-example/openresume-resume.pdf",
+    fileUrl: "resume-example/joe-schmoe-ResumeHQ.pdf",
     description: (
       <span>
-        Created with ResumeHQ resume builder -{" "}
+        Contoh Resume dari ResumeHQ builder -{" "}
         <Link href="/resume-builder">Link</Link>
       </span>
     ),
