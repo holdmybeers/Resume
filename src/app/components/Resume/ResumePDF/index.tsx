@@ -10,6 +10,7 @@ import { DEFAULT_FONT_COLOR } from "lib/redux/settingsSlice";
 import type { Settings, ShowForm } from "lib/redux/settingsSlice";
 import type { Resume } from "lib/redux/types";
 import { SuppressResumePDFErrorMessage } from "components/Resume/ResumePDF/common/SuppressResumePDFErrorMessage";
+import Watermark from "components/Resume/Watermark";
 
 /**
  * Note: ResumePDF is supposed to be rendered inside PDFViewer. However,
@@ -128,6 +129,36 @@ export const ResumePDF = ({
               const Component = formTypeToComponent[form];
               return <Component key={form} />;
             })}
+
+          {/* Add the Watermark component here */}
+          {/* <Watermark 
+            style={{
+              position: "fixed",
+              bottom: 20,
+              fontFamily: "Ubuntu",
+              right: 10,
+              textAlign: "center",
+              fontWeight: 300,
+            }}
+          /> */}
+          
+          {/* <View 
+              style={{
+                position: "absolute",
+                bottom: 3,
+                fontFamily: 'Ubuntu',
+                // left: 0,
+                right: 10,
+                textAlign: "center",
+                // color: themeColor,
+                fontWeight: 300,
+                // color: 'rgb(29 78 216)',
+              }}
+            >
+              <Watermark />
+            </View> */}
+
+
           </View>
         </Page>
       </Document>

@@ -22,14 +22,15 @@ export const Hero = () => {
           Screening Resume <span aria-hidden="true">→</span>
         </Link>
         {/* <p className="ml-6 mt-3 text-sm text-gray-600 text-center">No sign up required</p> */}
-        <p className="mt-1 text-lg text-sky-700 lg:mt-36">
-          Sudah punya resume?
+        <div className="mt-1 shadow-2xl bg-primary px-3 py-3 rounded-lg lg:mt-36">
+          Punya resume tapi belum yakin? Jangan khawatir!
           <br /> 
-          Screening resume kamu dengan tools{" "}
+          Upload resume kamu dan biarkan ResumeHQ menilai secara otomatis, apakah resume kamu lolos standard ATS Screening dengan tools
+          {" "}
           <Link href="/resume-screener" className="underline underline-offset-2">
             ATS Screening!
           </Link>
-        </p>
+        </div>
       </div>
       <FlexboxSpacer maxWidth={100} minWidth={50} className="hidden lg:block" />
       <div className="mt-6 flex justify-center lg:mt-4 lg:block lg:grow">

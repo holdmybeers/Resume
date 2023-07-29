@@ -11,23 +11,23 @@ const TESTIMONIALS = [
   {
     src: testimonialSpiegelSrc,
     quote:
-      "Students often make silly mistakes on their resume by using inconsistent bullet points or font sizes. OpenResume’s auto format feature is a great help to ensure consistent format.",
-    name: "Ms. Spiegel",
-    title: "Educator",
+      "Banyak mahasiswa sering membuat kesalahan kecil pada resume mereka, seperti menggunakan poin-poin bullet atau ukuran font yang tidak konsisten. Tetapi jangan khawatir, fitur otomatis format dari ResumeHQ dapat membantu memastikan format yang konsisten dan rapi. Dengan fitur ini, resume Anda akan terlihat lebih profesional dan menarik!",
+    name: "Donna",
+    title: "Dosen",
   },
   {
     src: testimonialSantiSrc,
     quote:
-      "I used OpenResume during my last job search and was invited to interview at top tech companies such as Google and Amazon thanks to its slick yet professional resume design.",
-    name: "Santi",
+      "Selama mencari pekerjaan terakhir, saya menggunakan OpenResume dan berkat desain resume yang keren namun profesional, saya diundang untuk wawancara di perusahaan teknologi ternama seperti Gojek, Shopee dan Traveloka. ResumeHQ memang membantu saya menampilkan diri dengan gaya yang menarik!",
+    name: "Rinto",
     title: "Software Engineer",
   },
   {
     src: testimonialVivianSrc,
     quote:
-      "Creating a professional resume on OpenResume is so smooth and easy! It saves me so much time and headache to not deal with google doc template.",
+      "Membuat resume profesional di ResumeHQ sangat lancar dan mudah! Ini menghemat banyak waktu dan mengurangi kekhawatiran karena tidak perlu repot-repot menghadapi template di Google Docs.",
     name: "Vivian",
-    title: "College Student",
+    title: "Mahasiswa",
   },
 ];
 
