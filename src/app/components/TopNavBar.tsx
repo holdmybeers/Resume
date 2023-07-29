@@ -61,7 +61,13 @@ export const TopNavBar = () => {
       <div className="flex h-10 w-full items-center justify-between">
         <Link href="/">
           <span className="sr-only">ResumeHQ</span>
-          <Image src={logoSrc} alt="ResumeHQ Logo" className="h-8" priority />
+          <Image
+            src={logoSrc}
+            alt="ResumeHQ Logo"
+            className="h-8 w-auto sm:h-10 md:h-12 lg:h-14"
+            priority
+          />
+          {/* <Image src={logoSrc} alt="ResumeHQ Logo" className="h-8 p-sm w-full" priority /> */}
         </Link>
         {/* Hamburger Icon for Mobile */}
         <div className="lg:hidden cursor-pointer">
