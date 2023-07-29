@@ -17,7 +17,7 @@ const RESUME_EXAMPLES = [
     fileUrl: "resume-example/laverne-resume.pdf",
     description: (
       <span>
-        Borrowed from University of La Verne Career Center -{" "}
+        Contoh Resume dari University of La Verne Career Center -{" "}
         <Link href="https://laverne.edu/careers/wp-content/uploads/sites/15/2010/12/Undergraduate-Student-Resume-Examples.pdf">
           Link
         </Link>
@@ -99,7 +99,7 @@ export default function ResumeParser() {
             </div>
             <Paragraph>
               Kamu juga bisa{" "}
-              <span className="font-semibold">mengupload resume kamu</span> 
+              <span className="font-semibold">mengupload resume kamu </span> 
               berupa PDF dan biarkan system kami yang menguji kelayakan resume kamu.
               <br />
               Semakin banyak informasi yang berhasil terbaca oleh system screening ATS, 

@@ -9,13 +9,13 @@ import { deepClone } from "lib/deep-clone";
 
 export const END_HOME_RESUME: Resume = {
   profile: {
-    name: "John Doe",
+    name: "Joe Shmoe",
     summary:
       "Software engineer obsessed with building exceptional products that people love",
     email: "hello@lokerhq.com",
     phone: "+62-812-09098",
     location: "Jakarta Selatan, DKI-Jakarta",
-    url: "linkedin.com/company/lokerhq",
+    url: "www.lokerhq.com",
   },
   workExperiences: [
     {
@@ -29,7 +29,7 @@ export const END_HOME_RESUME: Resume = {
       ],
     },
     {
-      company: "DEF Organization",
+      company: "WEF Organization",
       jobTitle: "Software Engineer Intern",
       date: "Summer 2022",
       descriptions: [
@@ -41,7 +41,7 @@ export const END_HOME_RESUME: Resume = {
     {
       company: "XYZ University",
       jobTitle: "Research Assistant",
-      date: "Summer 2021",
+      date: "Summer 2020",
       descriptions: [
         "Devised a new NLP algorithm in text classification that results in 10% accuracy increase",
         "Compiled and presented research findings to a group of 20+ faculty and students",
@@ -72,12 +72,12 @@ export const END_HOME_RESUME: Resume = {
   ],
   skills: {
     featuredSkills: [
-      { skill: "HTML", rating: 4 },
-      { skill: "CSS", rating: 4 },
-      { skill: "Python", rating: 3 },
+      { skill: "Rust", rating: 4 },
+      { skill: "Ruby", rating: 4 },
+      { skill: "Python", rating: 5 },
       { skill: "TypeScript", rating: 3 },
-      { skill: "React", rating: 3 },
-      { skill: "C++", rating: 2 },
+      { skill: "Julia", rating: 3 },
+      { skill: "C", rating: 2 },
     ],
     descriptions: [
       "Tech: React Hooks, GraphQL, Node.js, SQL, Postgres, NoSql, Redis, REST API, Git",
