@@ -1,8 +1,8 @@
 import React from "react";
 
-const Watermark = ({ style }) => {
+const Watermark = () => {
   return (
-    <div style={style}>
+    <div>
       <p>
         Created with ResumeHQ - an online resume maker
       </p>
