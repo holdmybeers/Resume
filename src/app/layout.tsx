@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const siteUrl = 'https://resume.lokerhq.com';
-  const imageUrl = `${siteUrl}/public/hq.png`;
+  const imageUrl = `${siteUrl}/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhq.28c06242.png&w=1080&q=75`;
 
   return (
     <html lang="en-id">
