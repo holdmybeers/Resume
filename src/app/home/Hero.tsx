@@ -3,6 +3,7 @@ import Image from "next/image";
 import { FlexboxSpacer } from "components/FlexboxSpacer";
 import { AutoTypingResume } from "home/AutoTypingResume";
 import arrowRight from "public/assets/round-arrow-right.svg";
+import arrowRight2 from "public/assets/arrow-circle-right.svg";
 
 export const Hero = () => {
   return (
@@ -18,12 +19,12 @@ export const Hero = () => {
           Bikin Resume Profesional standard ATS jadi makin mudah. Kesempatan lolos screening ATS semakin besar!
         </p>
         <Link href="/resume-import" className="btn-primary mt-6 lg:mt-14">
-          Mulai bikin resume <span aria-hidden="true">→</span>
+          Mulai bikin resume
+          <Image src={arrowRight2} alt="love" className="-mt-1 inline-block w-7" />
         </Link>
         <Link href="/resume-screener" className="btn-secondary lg:ml-5 mt-6 lg:mt-14">
-          Screening Resume <span aria-hidden="true">
-          <Image src={arrowRight} alt="love" className="-mt-1 text-primary inline-block w-7" />
-          </span>
+          Screening Resume 
+          <Image src={arrowRight} alt="love" className="-mt-1 inline-block w-7" />
         </Link>
         <p className="ml-6 mt-3 text-sm text-gray-600">No sign up required</p>
         <div className="mt-1 shadow-2xl bg-primary px-3 py-3 rounded-lg lg:mt-36">
