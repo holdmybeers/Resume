@@ -18,7 +18,7 @@ const TESTIMONIALS = [
   {
     src: testimonialSantiSrc,
     quote:
-      "Selama mencari pekerjaan terakhir, saya menggunakan OpenResume dan berkat desain resume yang keren namun profesional, saya diundang untuk wawancara di perusahaan teknologi ternama seperti Gojek, Shopee dan Traveloka. ResumeHQ memang membantu saya menampilkan diri dengan gaya yang menarik!",
+      "Selama mencari pekerjaan terakhir, saya menggunakan ResumeHQ dan berkat desain resume yang keren namun profesional, saya diundang untuk wawancara di perusahaan teknologi ternama seperti Gojek, Shopee dan Traveloka. ResumeHQ memang membantu saya menampilkan diri dengan gaya yang menarik!",
     name: "Rinto",
     title: "Software Engineer",
   },

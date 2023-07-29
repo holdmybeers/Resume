@@ -104,10 +104,10 @@ export const ResumeParserAlgorithmArticle = ({
   return (
     <article className="mt-10">
       <Heading className="text-primary !mt-0 border-t-2 pt-8">
-        Resume Parser Algorithm Deep Dive
+        Resume Screening Algorithm Deep Dive
       </Heading>
       <Paragraph smallMarginTop={true}>
-        For the technical curious, this section will dive into the OpenResume
+        For the technical curious, this section will dive into the ResumeHQ
         parser algorithm and walks through the 4 steps on how it works. (Note
         that the algorithm is designed to parse single column resume in English
         language)
@@ -338,7 +338,7 @@ export const ResumeParserAlgorithmArticle = ({
         and append the results.
       </Paragraph>
       <Paragraph smallMarginTop={true}>
-        The resume parser applies some heuristics to detect a subsection. The
+        The resume screening applies some heuristics to detect a subsection. The
         main heuristic to determine a subsection is to check if the vertical
         line gap between 2 lines is larger than the typical line gap * 1.4,
         since a well formatted resume usually creates a new empty line break
@@ -346,11 +346,11 @@ export const ResumeParserAlgorithmArticle = ({
         the main heuristic doesn't apply to check if the text item is bolded.
       </Paragraph>
       <Paragraph>
-        And that is everything about the OpenResume parser algorithm :)
+        And that is everything about the ResumeHQ screening algorithm :)
       </Paragraph>
       <Paragraph>
-        Written by <Link href="https://github.com/xitanggg">Xitang</Link> on
-        June 2023
+        Written by <Link href="https://github.com/lokerhq">Loker Headquarters Team</Link> on
+        July 2023
       </Paragraph>
     </article>
   );

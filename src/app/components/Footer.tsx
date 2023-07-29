@@ -1,7 +1,7 @@
 // components/Footer.tsx
 
 import Image from "next/image";
-import logoSrc from "public/logo.svg";
+import logoSrc from "public/hq.png";
 
 const Footer = () => {
   return (
@@ -30,9 +30,9 @@ const Footer = () => {
           </div>
           
           {/* Logo */}
-          <div>
+          {/* <div>
             <Image src={logoSrc} alt="ResumeHQ Logo" className="h-8 w-full" priority />
-          </div>
+          </div> */}
         </div>
       </div>
       <div>

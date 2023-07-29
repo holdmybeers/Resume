@@ -28,7 +28,7 @@ const RESUME_EXAMPLES = [
     fileUrl: "resume-example/openresume-resume.pdf",
     description: (
       <span>
-        Created with OpenResume resume builder -{" "}
+        Created with ResumeHQ resume builder -{" "}
         <Link href="/resume-builder">Link</Link>
       </span>
     ),
@@ -66,12 +66,12 @@ export default function ResumeParser() {
           <FlexboxSpacer maxWidth={45} className="hidden md:block" />
           <section className="max-w-[600px] grow">
             <Heading className="text-primary !mt-4">
-              Resume Parser Playground
+              Resume Screening Playground
             </Heading>
             <Paragraph smallMarginTop={true}>
-              This playground showcases the OpenResume resume parser and its
-              ability to parse information from a resume PDF. Click around the
-              PDF examples below to observe different parsing results.
+              Resume Screening ini bisa kamu gunakan untuk menilai apakah kelayakan resume kamu  
+              saat screening ATS oleh pihak recruiter. <br />
+              Gunakan kedua opsi di bawah ini untuk melihat hasil yang berbeda.
             </Paragraph>
             <div className="mt-3 flex gap-3">
               {RESUME_EXAMPLES.map((example, idx) => (
@@ -98,13 +98,12 @@ export default function ResumeParser() {
               ))}
             </div>
             <Paragraph>
-              You can also{" "}
-              <span className="font-semibold">add your resume below</span> to
-              access how well your resume would be parsed by similar Application
-              Tracking Systems (ATS) used in job applications. The more
-              information it can parse out, the better it indicates the resume
-              is well formatted and easy to read. It is beneficial to have the
-              name and email accurately parsed at the very least.
+              Kamu juga bisa{" "}
+              <span className="font-semibold">mengupload resume kamu</span> 
+              berupa PDF dan biarkan system kami yang menguji kelayakan resume kamu.
+              <br />
+              Semakin banyak informasi yang berhasil terbaca oleh system screening ATS, 
+              maka semakin besar pula kesempatan kamu untuk lolos tahap selanjutnya.
             </Paragraph>
             <div className="mt-3">
               <ResumeDropzone
@@ -115,7 +114,7 @@ export default function ResumeParser() {
               />
             </div>
             <Heading level={2} className="!mt-[1.2em]">
-              Resume Parsing Results
+              Contoh Hasil Screening ATS
             </Heading>
             <ResumeTable resume={resume} />
             <ResumeParserAlgorithmArticle
