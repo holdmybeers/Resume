@@ -17,6 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en-id">
+      <script defer data-domain="resume.lokerhq.com" src="https://analytics.istock.id/js/script.js"></script>
       <body>
         <TopNavBar />
         {children}
