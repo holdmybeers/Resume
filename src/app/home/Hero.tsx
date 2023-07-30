@@ -16,14 +16,14 @@ export const Hero = () => {
           dengan mudah!
         </h1>
         <p className="mt-3 text-lg lg:mt-5 lg:text-xl">
-          Bikin Resume Profesional standard ATS jadi makin mudah. Kesempatan lolos screening ATS semakin besar!
+          Buat Resume Profesional standard ATS jadi makin mudah. Kesempatan lolos screening ATS semakin besar!
         </p>
         <Link href="/resume-import" className="btn-primary mt-6 lg:mt-14">
-          Mulai bikin resume
+          Mulai buat resume
           <Image src={arrowRight2} alt="love" className="-mt-1 inline-block w-7" />
         </Link>
         <Link href="/resume-screener" className="btn-secondary lg:ml-5 mt-6 lg:mt-14">
-          Screening Resume 
+          Screening resume saya 
           <Image src={arrowRight} alt="love" className="-mt-1 inline-block w-7" />
         </Link>
         <p className="ml-6 mt-3 text-sm text-gray-600">No sign up required</p>
