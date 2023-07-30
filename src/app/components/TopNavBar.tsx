@@ -98,9 +98,9 @@ export const TopNavBar = () => {
             ["/resume-builder", "Buat Resume"],
             ["/resume-screener", "Screening Resume"],
           ].map(([href, text]) => (
-            <a key={text} className="rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4" href={href} target="_blank" rel="noopener noreferrer">
+            <Link key={text} className="rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4" href={href}>
               {text}
-            </a>
+            </Link>
           ))}
         </nav>
       </div>
@@ -119,9 +119,13 @@ export const TopNavBar = () => {
           ["/resume-builder", "Buat Resume"],
           ["/resume-screener", "Screening Resume"], 
         ].map(([href, text]) => (
-          <a key={text} className="rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100" href={href} target="_blank" rel="noopener noreferrer">
+          <Link
+            key={text}
+            className="rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100"
+            href={href}
+          >
             {text}
-          </a>
+          </Link>
         ))}
       </nav>
     </header>
