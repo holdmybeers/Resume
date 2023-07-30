@@ -6,12 +6,12 @@ import logoSrc from "public/hq.png";
 const Footer = () => {
   return (
     <footer className="bg-gray-200 py-4 mt-10 text-center text-gray-600">
-      <div className="container mx-auto mt-10 px-4 lg:flex lg:items-center lg:justify-between">
+      <div className="container mx-auto my-10 px-4 lg:flex lg:items-center lg:justify-between">
         {/* Left Column */}
         <div className="lg:w-1/3">
           <p>© {new Date().getFullYear()} ResumeHQ. <br />All rights reserved by LokerHQ.</p>
           <hr />
-          <div className="mt-3">
+          <div className="mt-5">
             Follow us on:
             <div className="pt-2">
               <span className="px-1">
