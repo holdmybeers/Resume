@@ -4,7 +4,7 @@ const Watermark = () => {
   return (
     <div>
       <p>
-        Created with ResumeHQ - an online resume maker
+        Created with ResumeHQ - an Online Resume Builder
       </p>
     </div>
   );

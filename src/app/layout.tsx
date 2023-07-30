@@ -5,7 +5,7 @@ import { Analytics } from '@vercel/analytics/react';
 import Footer from 'components/Footer'; // Note: Import without curly braces for default exports
 
 export const metadata = {
-  title: 'ResumeHQ - Online Resume Maker',
+  title: 'ResumeHQ - Online Resume Builder',
   description: 'Buat Resume Standard ATS GRATIS! Tes Screening Resume Online GRATIS!',
 };
 
