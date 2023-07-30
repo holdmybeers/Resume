@@ -2,7 +2,8 @@
 import 'globals.css';
 import { TopNavBar } from 'components/TopNavBar';
 import { Analytics } from '@vercel/analytics/react';
-import Footer from 'components/Footer'; // Note: Import without curly braces for default exports
+import Footer from 'components/Footer'; 
+
 
 export const metadata = {
   title: 'ResumeHQ - Online Resume Builder',
@@ -11,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const siteUrl = 'https://resume.lokerhq.com';
-  const imageUrl = `${siteUrl}/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhq.28c06242.png&w=1080&q=75`;
+  const imageUrl = `${siteUrl}/meta-thumbnails.png`;
 
   return (
     <html lang="en-id">
