@@ -5,8 +5,8 @@ import logoSrc from "public/hq.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 py-4 text-center text-gray-600">
-      <div className="container mx-auto px-4 lg:flex lg:items-center lg:justify-between">
+    <footer className="bg-gray-200 py-4 mt-10 text-center text-gray-600">
+      <div className="container mx-auto mt-10 px-4 lg:flex lg:items-center lg:justify-between">
         {/* Left Column */}
         <div className="lg:w-1/3">
           <p>© {new Date().getFullYear()} ResumeHQ. <br />All rights reserved by LokerHQ.</p>
@@ -98,7 +98,7 @@ const Footer = () => {
           </div>
           
           {/* Logo */}
-          <div>
+          <div className="justify-center">
             <a href="/">
               <Image
                 src={logoSrc}
