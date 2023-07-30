@@ -67,7 +67,24 @@ export const TopNavBar = () => {
             className="h-8 w-auto sm:h-10 md:h-12 lg:h-14"
             priority
           />
-          {/* <Image src={logoSrc} alt="ResumeHQ Logo" className="h-8 p-sm w-full" priority /> */}
+          <span className="hidden lg:block" style={{
+              position: 'absolute',
+              top: 3,
+              left: '13.5rem',
+              fontSize: 11,
+              fontWeight: 500,
+              color: 'grey',
+          }}>Beta</span>
+
+          <span className="show lg:hidden" style={{
+              position: 'absolute',
+              top: 3,
+              left: '5rem',
+              fontSize: 10,
+              fontWeight: 500,
+              color: 'grey',
+          }}>Beta</span>
+
         </Link>
         {/* Hamburger Icon for Mobile */}
         <div className="lg:hidden cursor-pointer">
