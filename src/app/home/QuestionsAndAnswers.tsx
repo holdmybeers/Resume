@@ -99,7 +99,7 @@ const QAS = [
          <br />
          Kamu juga bisa mengirimkan kritik ataupun saran kepada tim Loker Headquarter melalui email:
         {" "}
-          <Link href="mailto:team@lokerhq.com">team@lokerhq.com</Link>{" "}
+          <Link href="mailto:team@lokerhq.com"><span className="border-solid border-2 border-indigo-600 px-1 py-1 rounded-md">team@lokerhq.com</span></Link>{" "}
           <br />
           Jangan lupa follow sosial media kami di: 
           {" "}
@@ -108,6 +108,9 @@ const QAS = [
           </Link>{" "}
           <Link href="https://twitter.com/lokerhq">
           {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-600'>Twitter</span>, {''}
+          </Link>{" "}
+          <Link href="https://t.me/lokerhq">
+          {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-600'>Telegram</span>, {''}
           </Link>{" "}
           <Link href="https://facebook.com/lokerhq">
           {' '}<span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-600'>Facebook</span>, {''}
